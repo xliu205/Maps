@@ -1,0 +1,75 @@
+.App {
+text-align: center;
+}
+
+.input-group-text {
+  background-color: #561389;
+  color: #fff;
+  border: none;
+}
+
+.form-control {
+  border: 2px solid #f1f4f8;
+  border-radius: 0;
+}
+
+.btn {
+  background-color: #a26c83;
+  border-color: #f4f7f5;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #67ab2b;
+  border-color: #0f12b5;
+  color: #fff;
+}
+
+.btn:active {
+  background-color: #0f12b5;
+  border-color: #67ab2b;
+  color: #fff;
+}
+
+.btn:focus {
+  background-color: #0f12b5;
+  border-color: #67ab2b;
+  color: #fff;
+}
+
+
+.App-header {
+background-color: #282c34;
+min-height: 20vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(1px + 2vmin);
+color: rgba(211, 51, 181, 0.605);
+}
+
+.info {
+position: fixed;
+width: 60%;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+z-index: 99999;
+}
+
+.messageBox {
+white-space: pre-wrap;
+background-color: #fff;
+border: 1px solid #000;
+border-radius: 0.5rem;
+padding: 1rem;
+margin-bottom: 1rem;
+width: 60%;
+
+left: 20%;
+min-height: 10rem;
+max-height: 50vh;
+overflow-y: auto;
+z-index: 99999;
+}
